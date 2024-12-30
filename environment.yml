@@ -1,0 +1,15 @@
+name: doc_security
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - python-docx
+  - pymupdf
+  - pypdf2
+  - pillow
+  - pip
+  - pip:
+    - python-docx-replace>=0.4.0
+    - python-magic>=0.4.24
+    - loguru>=0.6.0
